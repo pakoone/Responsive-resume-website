@@ -1,0 +1,196 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.logo{
+	position: absolute;
+	height: 90px;
+	overflow: hidden;
+	margin: 8px;	
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background: url(/images/hdr.jpg) no-repeat center;
+	width: 100%;
+	height: 800px;
+	background-size: cover;
+}
+header nav{
+	background:rgb(211,211,211, 0.9);
+	height: 62px;
+	box-shadow: 0 2px 3px rgba(12, 12, 12, 0.25);
+}
+header nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+	display: flex;
+}
+header nav ul li a{
+	float: left;
+	line-height: 75px;
+	padding:0  10px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #313131;
+	opacity: .4;
+	transition: opacity .25s;
+}
+header nav ul li a:hover{
+	opacity: 1;
+	color: rgb(39, 37, 37);
+	text-decoration: none;
+}
+.text-hdr{
+	margin:0;
+	padding: 150px 20px 150px 20px;
+	font-weight: bold;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(245, 240, 240);
+}
+.text-hdr h1{
+		font-size: 7vw;
+	} 
+@media(max-width: 500px) {
+		text-hdr {
+		  width: 70%;
+		  
+		}h1{
+		font-size: 5vh;
+		}
+	}
+.bck-knw{
+	background:#313131;
+	opacity: 0.4;
+	height: 40px;
+}
+.knowlage p{
+	margin:0;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+	color:rgb(211,211,211, 1);
+	font-family: 'Josefin Sans', sans-serif;		
+}
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 33%;
+	padding: 20px;		
+}
+#boxes .box img{
+	width: 150px;
+}
+#boxes{
+	display: flex;
+}
+@media all and (max-width: 500px) {
+	#boxes  {
+	  display: flex;
+	  flex-wrap: wrap;
+	  flex-direction: column;
+	  align-content: center;
+	}
+}
+  
+/* about */
+
+.about-bs{
+	
+	height: 40px;
+	text-align: center;
+	color: black;
+	background:#313131;
+	opacity: 0.4;
+}
+.about-bs h1{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+	position: relative;
+	top: 10px;
+	color: rgb(211,211,211, 1);
+	font-weight: bold;	
+}
+.carousel-caption d-none d-md-block h5 {
+		font-size: 3%;
+		
+}
+.carousel-inner .carousel-item  img {
+	width:1024px;
+	height:720px;
+  }
+.slide-content h1{
+	font-family: 'Josefin Sans', sans-serif;
+	padding-bottom: 200px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 5vw;
+	text-shadow: 2px 2px #313131;;
+
+}
+.slide-content p{
+	font-size: 3vw;
+	font-family: 'Josefin Sans', sans-serif;
+	color:#d3d3d3;
+	text-shadow: 2px 2px #313131;;
+}
+
+@media(min-width: 600px) {
+	.slide-content h1 {
+	font-size: 3vw;
+	}
+	.slide-content p {
+	font-size: 2vw;
+	}
+	}
+
+.foot{
+	float: left;
+	
+	background-color: #313131;
+	opacity: 0.8;
+	height: 100px;
+	width: 100%;
+	
+
+}
+.foot-a{
+	position: relative;
+	right: 20px;
+	top: 20px;
+	height: auto;
+	margin: auto;
+}
+.foot-a ul{
+	float: right;
+margin: 0;
+padding: 0;
+text-align: center;
+display: flex;
+}
+.foot-a ul li{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin: 0px 10px;
+	border-radius: 100%;
+	background: #fff;
+}
+.foot-a ul li a{
+	color: #313131;
+	font-size: 25px;
+}
+.foot-a ul li a i{
+	line-height: 60px;
+}
+.foot-logo{
+	position: absolute;
+	height: 80px;
+	width: auto;
+	margin-left: 5px;
+	float: left;
+}
